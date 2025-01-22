@@ -43,13 +43,14 @@ interface Resource<T> {
     data: T
 }
 //áp dụng:
-const abc: Resource<string> = {
+const adbc: Resource<string> = {
     id: 1,
     name: 'kim',
     data: 'hello'
 }
-type NumberResource = Resource<number[]>
-const nm: NumberResource = {
+
+type NumberResources = Resource<number[]>
+const def: NumberResources = {
     id: 2,
     name: 'Kim',
     data: [1,2]
